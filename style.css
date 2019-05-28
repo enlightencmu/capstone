@@ -100,7 +100,7 @@ header {
 
 @media screen and (min-width: 48em) {
   .cover {
-    min-height:100vh;
+    min-height: 80vh;
   }
 }
 
