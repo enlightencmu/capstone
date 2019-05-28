@@ -39,6 +39,14 @@ h2 {
   line-height: 1.25em;
 }
 
+p {
+  margin-bottom: 36px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
