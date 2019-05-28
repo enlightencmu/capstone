@@ -13,6 +13,11 @@ body {
   line-height: 1.7em;
 }
 
+html, button, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+  font-family: 'Assistant', sans-serif;
+}
+
 a {
   background-color: transparent;
   color: inherit;
@@ -32,6 +37,12 @@ h1 {
 h2 {
   font-size: 54px;
   line-height: 1.25em;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 120px 40px;
 }
 
 header {
@@ -64,6 +75,8 @@ header {
 }
 
 .greed {
+  max-width: 880px;
+  margin: 0 auto;
   padding: 60px 0;
 }
 
@@ -73,6 +86,9 @@ header {
   background-color: #feb52c;
   background-size: cover;
   background-position: center;
+}
+
+main {
 }
 
 section {
@@ -112,3 +128,4 @@ footer {
   font-size: 14px;
   text-align: center;
 }
+
