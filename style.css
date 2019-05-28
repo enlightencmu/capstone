@@ -1,12 +1,16 @@
 
 * {
-  font-family: 'Assistant', sans-serif;
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   padding: 0;
+  color: #293047;
+  font-family: 'Assistant', sans-serif;
+  font-size: 18px;
+  letter-spacing: .035em;
+  line-height: 1.7em;
 }
 
 a {
@@ -16,12 +20,13 @@ a {
 }
 
 h1 {
-  font-weight: 400;
-  font-style: normal;
   font-size: 54px;
-  letter-spacing: 0em;
   line-height: 1.25em;
-  text-transform: none;
+}
+
+h2 {
+  font-size: 54px;
+  line-height: 1.25em;
 }
 
 header {
@@ -32,8 +37,6 @@ header {
   flex: 0 0 auto;
   padding: 24px;
   color: #1a1f2d;
-  font-weight: 400;
-  font-style: normal;
   font-size: 16px;
   letter-spacing: .25em;
   line-height: 1em;
