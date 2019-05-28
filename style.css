@@ -19,6 +19,11 @@ a {
   text-decoration: none;
 }
 
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-size: 54px;
   line-height: 1.25em;
@@ -48,7 +53,6 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0 auto;
 }
 
 .nav-item {
@@ -69,4 +73,42 @@ header {
   background-color: #feb52c;
   background-size: cover;
   background-position: center;
+}
+
+section {
+  padding: 24px 12px;
+  background-color: #fff;
+}
+
+section:nth-child(2) {
+  background-color: #f2f5f6;
+}
+
+.section-title {
+  margin: 48px 0;
+}
+
+.section-content {
+  margin: 48px 0;
+}
+
+footer {
+  margin: 24px 0;
+  padding: 12px 0;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-item {
+  padding: 0 4px;
+}
+
+.copyright {
+  font-size: 14px;
+  text-align: center;
 }
