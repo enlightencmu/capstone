@@ -30,19 +30,33 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 h1 {
-  font-size: 54px;
+  font-size: 32px;
   line-height: 1.25em;
 }
 
 h2 {
-  font-size: 54px;
+  font-size: 32px;
   line-height: 1.25em;
 }
 
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 120px 40px;
+  padding: 40px 20px;
+}
+
+@media screen and (min-width: 48em) {
+  h1 {
+    font-size: 54px;
+  }
+  
+  h2 {
+    font-size: 54px;
+  }
+
+  .container {
+    padding: 120px 40px;
+  }
 }
 
 header {
@@ -50,20 +64,16 @@ header {
 }
 
 .site-title {
-  flex: 0 0 auto;
   padding: 24px;
   color: #1a1f2d;
   font-size: 16px;
   letter-spacing: .25em;
   line-height: 1em;
   text-transform: uppercase;
-  text-rendering: optimizeLegibility;
 }
 
 .site-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  margin: 0 auto;
 }
 
 .nav-item {
@@ -82,13 +92,16 @@ header {
 
 .cover {
   width: 100%;
-  min-height: 100vh;
+  min-height: 50vh;
   background-color: #feb52c;
   background-size: cover;
   background-position: center;
 }
 
-main {
+@media screen and (min-width: 48em) {
+  .cover {
+    min-height:100vh;
+  }
 }
 
 section {
@@ -128,4 +141,3 @@ footer {
   font-size: 14px;
   text-align: center;
 }
-
