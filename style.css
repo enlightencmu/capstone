@@ -22,6 +22,7 @@ a {
   background-color: transparent;
   color: inherit;
   text-decoration: none;
+  transition: all .25s ease-in-out;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -72,6 +73,7 @@ header {
 }
 
 .site-title {
+  display: block;
   padding: 24px;
   color: #1a1f2d;
   font-size: 16px;
@@ -80,16 +82,26 @@ header {
   text-transform: uppercase;
 }
 
+.site-title:hover {
+  color: #feb52c;
+}
+
 .site-nav {
   margin: 0 auto;
 }
 
 .nav-item {
-  margin: 0 12px;
+  margin: 0 6px;
+  padding: 4px 8px;
   font-weight: 600;
   font-size: 12px;
   letter-spacing: .2em;
   text-transform: uppercase;
+  border-bottom: transparent 2px solid;
+}
+
+.nav-item:hover {
+  border-bottom: #feb52c 2px solid;
 }
 
 .greed {
@@ -149,6 +161,10 @@ footer {
 
 .social-item {
   padding: 0 4px;
+}
+
+.social-item:hover {
+  color: #feb52c;
 }
 
 .copyright {
