@@ -131,6 +131,10 @@ section:nth-child(2) {
   margin: 36px 0;
 }
 
+.section-image img {
+  width: 20%;
+}
+
 footer {
   margin: 24px 0;
   padding: 12px 0;
