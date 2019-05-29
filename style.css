@@ -83,7 +83,7 @@ header {
 }
 
 .site-title:hover {
-  color: #feb52c;
+  color: #ffd300;
 }
 
 .site-nav {
@@ -101,7 +101,7 @@ header {
 }
 
 .nav-item:hover {
-  border-bottom: #feb52c 2px solid;
+  border-bottom: #ffd300 2px solid;
 }
 
 .greed {
@@ -114,7 +114,7 @@ header {
 .cover {
   width: 100%;
   min-height: 50vh;
-  background-color: #feb52c;
+  background-color: #ffd300;
   background-size: cover;
   background-position: center;
 }
@@ -164,7 +164,7 @@ footer {
 }
 
 .social-item:hover {
-  color: #feb52c;
+  color: #ffd300;
 }
 
 .copyright {
