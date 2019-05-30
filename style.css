@@ -172,6 +172,10 @@ section:nth-child(2) {
   width: 100%;
 }
 
+.insight {
+  padding: 0 12px;
+}
+
 .insight img {
   float: left;
   padding: 12px 12px 12px 0;
