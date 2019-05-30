@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="396px" height="161px" viewBox="0 0 396 161" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-678.000000, -1684.000000)">
+            <g id="Group" transform="translate(678.000000, 1684.000000)">
+                <path d="M188,18 L188,2.27373675e-13 L209.652884,18 L386,18 C391.522847,18 396,22.4771525 396,28 L396,150.043478 C396,155.566326 391.522847,160.043478 386,160.043478 L10,160.043478 C4.4771525,160.043478 6.76353751e-16,155.566326 0,150.043478 L0,28 C-6.76353751e-16,22.4771525 4.4771525,18 10,18 L188,18 Z" id="Combined-Shape" fill="#F5F5F5" fill-rule="nonzero"></path>
+                <text id="Race,-poverty-levels" font-family="Lato-BoldItalic, Lato" font-size="14" font-style="italic" font-weight="bold" line-spacing="30" fill="#000000">
+                    <tspan x="10" y="64">Race, poverty levels, English proficiency</tspan>
+                    <tspan x="241.161" y="64" font-family="Lato-LightItalic, Lato" font-weight="300"> and other </tspan>
+                    <tspan x="303.125" y="64">uncontrollable</tspan>
+                    <tspan x="388.189" y="64" font-family="Lato-LightItalic, Lato" font-weight="300"> </tspan>
+                    <tspan x="10" y="94" font-family="Lato-LightItalic, Lato" font-weight="300">factors account for most variation in achievement.</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
