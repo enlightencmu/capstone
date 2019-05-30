@@ -168,6 +168,10 @@ section:nth-child(2) {
   width: 20%;
 }
 
+.section-image.logo img {
+  width: 10%;
+}
+
 .section-diagram img {
   width: 100%;
 }
