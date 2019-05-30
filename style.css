@@ -109,7 +109,7 @@ header {
 .greed {
   max-width: 860px;
   margin: 0 auto;
-  padding: 200px 24px;
+  padding: 20px 24px 40px 24px;
   font-weight: 800;
   color: #000000;
   font-size: 24px;
