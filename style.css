@@ -115,6 +115,10 @@ header {
   font-size: 24px;
 }
 
+.rightalign {
+  text-align: right;
+}
+
 .cover {
   width: 100%;
   min-height: 50vh;
