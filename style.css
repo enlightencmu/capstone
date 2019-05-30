@@ -50,7 +50,7 @@ p:last-child {
 }
 
 .container {
-  max-width: 880px;
+  max-width: 860px;
   margin: 0 auto;
   padding: 40px 20px;
 }
@@ -107,7 +107,7 @@ header {
 }
 
 .greed {
-  max-width: 880px;
+  max-width: 860px;
   margin: 0 auto;
   padding: 200px 24px;
   font-weight: 800;
