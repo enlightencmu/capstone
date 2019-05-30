@@ -139,7 +139,7 @@ section {
   text-align: center;
 }
 
-section:nth-child(even) {
+section:nth-child(2) {
   background-color: #f2f5f6;
 }
 
@@ -200,7 +200,7 @@ section:nth-child(even) {
   position: relative;
   margin-top: 24px;
   padding: 12px 18px;
-  background-color: bisque;
+  background-color: #f0f0f0;
   font-style: italic;
   line-height: 1.5em;
   border-radius: 12px;
@@ -218,7 +218,7 @@ section:nth-child(even) {
   text-align: center;
   border-left: 12px solid transparent;
   border-right: 12px solid transparent;
-  border-bottom: 18px solid bisque;
+  border-bottom: 18px solid #f0f0f0;
 }
 
 
