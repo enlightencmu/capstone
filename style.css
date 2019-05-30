@@ -172,6 +172,16 @@ section:nth-child(2) {
   width: 100%;
 }
 
+.insight img {
+  float: left;
+  padding: 12px 12px 12px 0;
+}
+
+.insight p {
+  padding-top: 14px;
+  line-height: 1.5em;
+}
+
 
 footer {
   margin: 24px 0;
