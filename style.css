@@ -173,16 +173,19 @@ section:nth-child(2) {
 }
 
 .insight {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
   padding: 0 12px;
 }
 
 .insight img {
-  float: left;
+  align-self: flex-start;
   padding: 12px 12px 12px 0;
 }
 
 .insight p {
-  padding-top: 14px;
+  padding-top: 10px;
   line-height: 1.5em;
 }
 
