@@ -148,6 +148,18 @@ section:nth-child(2) {
   text-align: left;
 }
 
+.section-profile {
+  margin: 48px 0;
+}
+
+.section-profile img {
+  width: 70%;
+}
+
+.section-profile p {
+  text-align: left;
+}
+
 .section-image img {
   width: 20%;
 }
