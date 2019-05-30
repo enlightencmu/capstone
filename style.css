@@ -37,7 +37,7 @@ h1 {
 
 h2 {
   color: #000000;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 1.25em;
 }
 
@@ -61,7 +61,7 @@ p:last-child {
   }
   
   h2 {
-    font-size: 42px;
+    font-size: 30px;
   }
 
   .container {
@@ -166,6 +166,11 @@ section:nth-child(2) {
 
 .section-image img {
   width: 20%;
+}
+
+.section-logo img {
+  width: 12%;
+  padding-bottom: 40px;
 }
 
 .section-image.logo img {
