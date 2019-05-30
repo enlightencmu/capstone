@@ -173,20 +173,48 @@ section:nth-child(2) {
 }
 
 .insight {
-  display: flex;
-  flex-direction: row;
-  align-content: flex-start;
   padding: 0 12px;
 }
 
-.insight img {
+.insight-content {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+
+.insight-content img {
   align-self: flex-start;
   padding: 12px 12px 12px 0;
 }
 
-.insight p {
+.insight-content p {
   padding-top: 10px;
   line-height: 1.5em;
+}
+
+.insight-quote {
+  position: relative;
+  margin-top: 24px;
+  padding: 12px 18px;
+  background-color: bisque;
+  font-style: italic;
+  line-height: 1.5em;
+  border-radius: 12px;
+}
+
+.insight-quote:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  left: 14px;
+  top: -18px;
+  margin: 0 auto;
+  text-align: center;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-bottom: 18px solid bisque;
 }
 
 
