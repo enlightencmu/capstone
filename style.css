@@ -221,18 +221,40 @@ section:nth-child(2) {
 }
 
 .insight-quote:before {
-  content: '';
+  content: "";
   position: absolute;
-  display: block;
-  width: 0;
-  height: 0;
-  left: 14px;
-  top: -18px;
-  margin: 0 auto;
-  text-align: center;
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
-  border-bottom: 18px solid #f0f0f0;
+  top: -20px;
+  left: 50%;
+  width: 100px;
+  height: 20px;
+  margin: 0 0 0 -50px;
+  background: #f0f0f0;
+}
+
+.insight-quote:after {
+  content: "";
+  position: absolute;
+  top: -20px;
+  left: 0;
+  width: 50%;
+  height: 20px;
+  background: #fff;
+  -webkit-border-bottom-right-radius: 15px;
+  -moz-border-radius-bottomright: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.insight-quote > :first-child:before {
+  content: "";
+  position: absolute;
+  top: -20px;
+  right: 0;
+  width: 50%;
+  height: 20px;
+  background: #fff;
+  -webkit-border-bottom-left-radius: 15px;
+  -moz-border-radius-bottomleft: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 footer {
