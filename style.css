@@ -25,7 +25,7 @@ a {
   transition: all .25s ease-in-out;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6, p, ul, li {
   margin: 0;
   padding: 0;
 }
@@ -197,7 +197,16 @@ section:nth-child(2) {
 }
 
 .insight-content p {
+  margin-bottom: 12px;
   padding-top: 10px;
+  line-height: 1.5em;
+}
+
+.insight-text ul {
+  margin-left: 20px;
+}
+
+.insight-text li {
   line-height: 1.5em;
 }
 
@@ -225,7 +234,6 @@ section:nth-child(2) {
   border-right: 12px solid transparent;
   border-bottom: 18px solid #f0f0f0;
 }
-
 
 footer {
   margin: 24px 0;
