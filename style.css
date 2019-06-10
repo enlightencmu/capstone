@@ -181,6 +181,24 @@ section:nth-child(2) {
   width: 100%;
 }
 
+.method {
+  padding: 0 6px;
+  text-align: center;
+}
+
+.method-img {
+  width: 100%;
+}
+
+.method-img img {
+  width: 25%;
+}
+
+.method-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .insight {
   padding: 0 12px;
 }
