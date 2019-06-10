@@ -192,14 +192,23 @@ section:nth-child(2) {
 }
 
 .method-img img {
-  /* width: 25%; */
   height: 100%;
 }
 
-.method-text {
+.method-text p {
   font-size: 14px;
-  font-weight: 400;
+  line-height: 1.5em;
 }
+
+.method-text p b {
+  font-size: 16px;
+}
+
+.method-text p:first-child {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
 
 .insight {
   padding: 0 12px;
