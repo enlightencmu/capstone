@@ -154,7 +154,7 @@ section {
   text-align: center;
 }
 
-section:nth-child(2) {
+section:nth-child(even) {
   background-color: #f2f5f6;
 }
 
