@@ -48,14 +48,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="458" />
-          <entry key="html" value="2295" />
+          <entry key="html" value="2306" />
           <entry key="md" value="231" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="458" />
-          <entry key="HTML" value="2295" />
+          <entry key="HTML" value="2306" />
           <entry key="Markdown" value="231" />
         </counts>
       </usages-collector>
@@ -81,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iteration.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+            <state relative-caret-position="337">
+              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -271,12 +271,12 @@
       <workItem from="1561327712872" duration="785000" />
       <workItem from="1561599813775" duration="589000" />
       <workItem from="1561605781727" duration="161000" />
-      <workItem from="1565581616477" duration="50000" />
+      <workItem from="1565581616477" duration="125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36640000" />
+    <option name="totallyTimeSpent" value="36715000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -401,8 +401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iteration.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        <state relative-caret-position="337">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
         </state>
       </provider>
     </entry>
