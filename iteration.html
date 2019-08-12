@@ -46,16 +46,160 @@
   
     <section>
       <div class="container pure-g">
-        <h2 class="section-title pure-u-1">Title</h2>
+        <h2 class="section-title pure-u-1">Low-Fidelity Prototyping</h2>
         <div class="section-image pure-u-1">
-          <img src="images/small.jpg">
+          <img src="images/iteration/lofi01.png">
         </div>
         <div class="section-content pure-u-1">
-          <p>Content here: Aliquam at lorem tortor. Nulla eu sapien eu nibh dapibus ornare. Vestibulum posuere rhoncus elementum. Donec mattis luctus nisl non iaculis. Maecenas rhoncus augue nisi, id suscipit arcu luctus varius.</p>
-          <p>Content here: Aliquam at lorem tortor. Nulla eu sapien eu nibh dapibus ornare. Vestibulum posuere rhoncus elementum. Donec mattis luctus nisl non iaculis. Maecenas rhoncus augue nisi, id suscipit arcu luctus varius.</p>
+          <p>We then  quickly generated a low-fidelity prototype and did two rounds of usability testing. We first tested with two fellow designers to get feedback on the usability and flow, then we redesigned our prototype and test again with several district administrators. The key takeaways are the identified usability issues as follows:</p>
+          <p>Users mentioned that they worry about the intervention data and would like to see the working prototype to see if this function provides the information needed</p>
+          <p>Users like the bubble chart and line chart, but want to be able to have drop down menus to change setting, such as grade level, region, and subject.</p>
+          <p>Users were also worried about he fidelity of the intervention data because different schools may not put the same amount effort on keeping track of the intervention data.</p>
         </div>
       </div>
     </section>
+
+    <section>
+      <div class="container pure-g">
+        <h2 class="section-title pure-u-1">Mid-Fidelity Prototyping</h2>
+        <div class="section-image pure-u-1">
+          <img src="images/iteration/mid-fi.png">
+        </div>
+        <div class="section-content pure-u-1">
+          <p>After the first round of testing, we started working on the Mid-Fidelity prototype immediately. The main focus this time was to improve the visual hierarchy and streamline different use cases. We developed the Mid-fi prototypes by defining four different tasks:</p>
+          <p>1. Set the preference of if willing to connect with other school, the purpose of this was also to protect schools’ privacy and give school options if they’d like to be connected or not.</p>
+          <p>2. Find demographically similar schools on the main dashboard</p>
+          <p>3. Compare demographically sub-groups’ performance and growth overtime - longitudinal data comparison.</p>
+          <p>4. Customize similarity calculation based on users’ need and special use cases.</p>
+        </div>
+        <div class="section-image pure-u-1">
+          <img src="images/iteration/cardpattern.jpg">
+        </div>
+        <div class="section-content pure-u-1">
+          <p>To improve Visual hierarchy, and improve users’ experience of reading flow, we also added the card pattern. Different card set different zones for different chunk of information.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container pure-g">
+        <h2 class="section-title pure-u-1">Testing Round 1 - Usability Testing</h2>
+        <div class="section-content pure-u-1">
+          <p>Through these sessions, we found a number of places that we can improve our design:</p>
+          <p>Users do not immediately interpret the bubbles as schools</p>
+          <p>Users do not understand the purpose of the searching function</p>
+          <p>Users interpret the chat icon as asking for help from the system</p>
+          <p>Users were not able to find the median of either growth or performance scores</p>
+          <p>Information organization is rather messy, with the ‘customize similarity‘ button on top and ‘show only selected school‘ down at the bottom</p>
+          <p>Users were not able to associate the Customize Similarity Score function to the schools bubbles.
+            That’s also a second reason why users had a hard time understanding the bubbles represent schools’ similarity.</p>
+        </div>
+        <div class="section-image pure-u-1">
+          <img src="images/iteration/ut01.jpg">
+        </div>
+        <div class="section-image pure-u-1">
+          <img src="images/iteration/ut02.jpg">
+        </div>
+        <div class="section-image pure-u-1">
+          <img src="images/iteration/ut03.jpg">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container pure-g">
+        <h2 class="section-title pure-u-1">Hi-Fidelity Prototyping</h2>
+        <div class="section-content pure-u-1">
+          <p>In developing the Mid-Fi into our Hi-Fi prototype we made a number of sweeping changes which include:</p>
+          <p><b>Re-organized Information Architecture</b></br>
+            Based on our team discussion, we chose to make the school bubble charts and line charts as two parallel view options, rather than a linear flow. Users previously had to see bubble chart first and then select the schools they want to compare, after which they could view the longitudinal comparison. Now, administrators could toggle between either as needed.</p>
+          <p><b>Added Sorting Function</b></br>
+            We added four different ways of sorting schools: by similarity, by higher growth, by higher performance, or by a combination of all three factors, named “Recommended</p>
+          <p><b>Added Table View</b></br>
+            Another big change we made was adding a table view, where users could find more detailed demographic comparison among different schools. The table listed a side-by-side breakdown of all the demographic data we had available for user-selected schools.</p>
+          <p><b>Improved Components Design and Readability</b></br>
+            We revised many components, for example we changed the test subject and region settings from drop-downs to tabs, so users could easily know what other options are available without needing to click more.</p>
+
+        </div>
+        <div class="section-image pure-u-1">
+          <img src="images/iteration/hf01.jpg">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container pure-g">
+        <h2 class="section-title pure-u-1">Testing Round 2 - Experience Prototyping</h2>
+        <div class="section-content pure-u-1">
+          <p>After we developed the first rounds Hi-Fidelity prototypes, we conducted around 10 sessions of experience prototyping, to further test our prototypes and validate our design.</p>
+          <p>During this round of testing, we found the following issues:</p>
+          <p>The district administrator apply meaning to different colors. They have a mental model of green or blue represents students performing well, while red or pink represents students not performing well.</p>
+          <p>They interpreted the similarity score as performance.</p>
+          <p>They didn’t understand why the tool chose the
+            5 schools for comparison. Also, some users mentioned that seeing my school to be the one with lowest performance and growth made them feel bad, emotionally.</p>
+        </div>
+        <div class="section-image pure-u-1">
+          <img src="images/iteration/utround2photo.jpg">
+          <img src="images/iteration/utround2.jpg">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container pure-g">
+        <h2 class="section-title pure-u-1">Hi-Fidelity Prototyping Iteration</h2>
+        <div class="section-content pure-u-1">
+          <p>After we developed the first round hi-fidelity prototypes, we conducted around 10 more sessions of testing to further validate our design. Some difficulties in users’ workflow arose, which we resolved in the following ways:</p>
+          <p><b>Update School Bubble Colors</b></br>
+            The district administrator applied meaning to different color. They have a mental model of green or blue represent students performing well, while red or pink represents students not performing well. Based on this, we updated the prototype so that all schools have the same primary color.
+          </p>
+          <p><b>Add on-boarding instruction</b></br>
+            We also realized that non-Renaissance and novice
+            users may be unfamiliar with common design patterns in the district dashboards, such as using bubbles to represent schools. We chose to add some instruction up-front to help users understand what our representation meant.</p>
+          <p><b>Added Table View</b></br>
+            Another big change we made was adding a table view, where users could find more detailed demographic comparison among different schools. The table listed a side-by-side breakdown of all the demographic data we had available for user-selected schools.</p>
+          <p><b>Update Similarity Scale</b></br>
+            A major finding is that administrators usually relate a 100 scale score to student’s performance. So when they saw the SimilarityScore as a number out of 100, they often interpreted it as the schools’ average performance. To reduce confusion we also changed the score scale to be out of 10.</p>
+
+        </div>
+        <div class="section-image pure-u-1">
+          <img src="images/iteration/hifiiteration.jpg">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container pure-g">
+        <h2 class="section-title pure-u-1">Testing Round 3 - Semantic Meaning Testing</h2>
+        <div class="section-content pure-u-1">
+          <p>Once we have all the major problems solved, we did a round of testing focusing on semantic meaning
+            to ensure all text and buttons convey their intended meaning clearly. For example, we tested different options for the action button on the on-boarding pop-up window. We chose to use “you/your” to refer the users, and use “we” to refer to those internal to the system.</p>
+        </div>
+        <div class="section-image pure-u-1">
+          <img src="images/iteration/semantic.jpg">
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container pure-g">
+        <h2 class="section-title pure-u-1">Iteration Is Important</h2>
+        <div class="section-content pure-u-1">
+          <p>Other than the major updates, we also iterated on visual representation and visual hierarchy, not only to make the product more visually attractive, but also to make information easier to read.</p>
+        </div>
+        <div class="section-image pure-u-1">
+          <img src="images/iteration/iterationisimportant.jpg">
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
   </main>
   
   <footer>
