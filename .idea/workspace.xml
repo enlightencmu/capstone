@@ -82,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/iteration.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="337">
-              <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+              <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -271,12 +271,12 @@
       <workItem from="1561327712872" duration="785000" />
       <workItem from="1561599813775" duration="589000" />
       <workItem from="1561605781727" duration="161000" />
-      <workItem from="1565581616477" duration="125000" />
+      <workItem from="1565581616477" duration="179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36715000" />
+    <option name="totallyTimeSpent" value="36769000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -402,7 +402,7 @@
     <entry file="file://$PROJECT_DIR$/iteration.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="337">
-          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
         </state>
       </provider>
     </entry>
