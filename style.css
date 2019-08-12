@@ -49,6 +49,10 @@ p:last-child {
   margin-bottom: 0;
 }
 
+li {
+  list-style-position: inside;
+}
+
 .container {
   max-width: 860px;
   margin: 0 auto;
@@ -127,6 +131,17 @@ header {
   background-position: center;
 }
 
+.cover-container {
+  width: 100%;
+  padding: 24px 0 0;
+  background-color: #ffd300;
+}
+
+.cover-container .cover {
+  width: 80%;
+  margin: 0 auto;
+}
+
 @media screen and (min-width: 48em) {
   .cover {
     min-height: 80vh;
@@ -139,7 +154,7 @@ section {
   text-align: center;
 }
 
-section:nth-child(2) {
+section:nth-child(even) {
   background-color: #f2f5f6;
 }
 
@@ -165,7 +180,7 @@ section:nth-child(2) {
 }
 
 .section-image img {
-  width: 20%;
+  width: 100%;
 }
 
 .section-logo img {
@@ -208,7 +223,6 @@ section:nth-child(2) {
   margin-top: 12px;
   margin-bottom: 12px;
 }
-
 
 .insight {
   padding: 0 12px;
@@ -311,3 +325,22 @@ footer {
   text-align: center;
 }
 
+.cta {
+  display: inline-block;
+  padding: 8px 28px;
+  font-size: 18px;
+  font-weight: 400;
+  background: #ffd300;
+  transition: all .35s ease-in-out;
+  cursor: pointer;
+}
+
+.cta:hover {
+  background: #ffe14f;
+}
+
+.cta-container {
+  margin: 0 auto;
+  padding-top: 48px;
+  text-align: center;
+}
